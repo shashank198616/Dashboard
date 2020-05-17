@@ -155,7 +155,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                     </div>
                                                                 </div>
                                                                 <div className="widget-progress-wrapper mt-1">
-                                                           /.         <Progress
+                                                                    <Progress
                                                                         className="progress-bar-sm progress-bar-animated-alt"
                                                                         color="danger"
                                                                         value="63"/>

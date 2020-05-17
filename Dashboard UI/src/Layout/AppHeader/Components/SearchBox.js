@@ -22,9 +22,9 @@ class SearchBox extends React.Component {
                         <button onClick={() => this.setState({activeSearch: !this.state.activeSearch})}
                                 className="search-icon"><span/></button>
                     </div>
-                    <button onClick={() => this.setState({activeSearch: !this.state.activeSearch})} className="close"/>
-                </div>
-            </Fragment>
+                    <button onClick={() => this.setState({activeSearch: !this.state.activeSearch})} className="close"/>                    
+                </div>                
+            </Fragment>           
         )
     }
 }
